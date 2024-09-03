@@ -1915,12 +1915,11 @@ img,
 /* ------------------------------------------------------------------- 
  * ## page loaded
  * ------------------------------------------------------------------- */
-.ss-loaded #preloader {
+ .ss-loaded #preloader {
     opacity   : 0;
     visibility: hidden;
-    transition: all 0.6s 0.9s ease-in-out;
+    transition: all 0.0s 0.1s ease-in-out;
 }
-
 .ss-loaded #preloader #loader {
     opacity   : 0;
     transition: opacity 0.6s ease-in-out;
