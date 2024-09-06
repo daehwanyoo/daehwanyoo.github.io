@@ -3056,7 +3056,7 @@ td:last-child {
 .s-header.offset {
     transform          : translateY(-100%);
     transition-property: transform, background-color;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
 }
 
 .s-header.scrolling {
@@ -3599,7 +3599,7 @@ td:last-child {
 .s-intro__social,
 .s-intro__scroll-down {
     transition-timing-function: cubic-bezier(0.28, 0.12, 0.22, 1);
-    transition-duration       : 0.6s;
+    transition-duration       : 0.3s;
     transition-delay          : 0s;
     opacity                   : 0;
 }
