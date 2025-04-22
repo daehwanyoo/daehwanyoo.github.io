@@ -3426,6 +3426,7 @@ td:last-child {
     opacity: 0;
     animation: fadeInIntro 1s ease-out 0.4s forwards;
     margin-bottom: 15rem;
+    position: relative;
 
     }
     @keyframes fadeInIntro {
@@ -3447,25 +3448,36 @@ td:last-child {
 }
 
 .tag-row.top {
-    margin-top: -10rem;
+    margin-top:calc(-8vw); 
     transform: translateX(-4%); /* shift left */
+
 
 }
 
 .tag-row.bottom {
-    margin-bottom: -10rem;
+    margin-bottom: calc(-8vw);
     transform: translateX(4%); /* shift right */
 
+
 }
+
   
   .tag-line {
-    width: 30%;
+    width: 20%;
     height: 0.0625rem;
+    min-width: 6rem;
+    max-width: 15rem;
     background-color: #bbb;
     margin: 0 1rem;
     flex-shrink: 0;
   }
-  
+  @media screen and (max-width: 600px) {
+    .tag-line {
+      width: 18%;
+      max-width: 8rem;
+    }
+  }
+    
   /* Greeting Row */
   .greeting-row {
     display: flex;
