@@ -3107,7 +3107,7 @@ td:last-child {
     left: 0;
     right: 0;
     text-align: center;
-    color: white;
+    color: black;
     font-weight: 600;
     z-index: 10;
 
@@ -3121,6 +3121,9 @@ td:last-child {
 .s-header__social img {
     width: 24px;
     height: 24px;
+}
+.s-header.sticky .s-header__name {
+    color: white;
 }
 
 /* --------------------------------------------------------------------
