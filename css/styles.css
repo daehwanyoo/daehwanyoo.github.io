@@ -3179,7 +3179,7 @@ td:last-child {
     font-weight        : 400;
     font-size          : 1.5rem;
     line-height        : var(--header-height);
-    color              : var(--color-gray-14);
+    color              : black;
     padding            : 0 1.2rem;
     transition-property: color, background-color;
 }
