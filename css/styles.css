@@ -3425,7 +3425,7 @@ td:last-child {
     gap: 0rem; /* add consistent vertical spacing */
     opacity: 0;
     animation: fadeInIntro 1s ease-out 0.4s forwards;
-    margin-bottom: 20rem;
+    margin-bottom: 15rem;
 
     }
     @keyframes fadeInIntro {
