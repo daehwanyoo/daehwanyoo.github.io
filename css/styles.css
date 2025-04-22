@@ -3409,9 +3409,7 @@ td:last-child {
     position: relative;
     padding-top   : var(--content-padding-top);
     --content-padding-top   : max(20rem, 18vh);
-    --content-padding-bottom: 8rem;
-    padding-bottom: var(--content-padding-bottom);
-
+    --content-padding-bottom: 20rem;
     }
   
   .s-intro__inner {
@@ -3427,7 +3425,8 @@ td:last-child {
     gap: 0rem; /* add consistent vertical spacing */
     opacity: 0;
     animation: fadeInIntro 1s ease-out 0.4s forwards;
-  
+    margin-bottom: 20rem;
+
     }
     @keyframes fadeInIntro {
         to {
