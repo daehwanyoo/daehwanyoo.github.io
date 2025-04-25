@@ -3130,16 +3130,26 @@ td:last-child {
  * ## logo
  * -------------------------------------------------------------------- */
  .s-header__logo {
-    z-index    : 3;
+    z-index    : 10;
     line-height: 1;
     display: flex;
     align-items: center;
     gap: 0.5rem;
     margin-left: 3rem;
+    z-index    : 11;
+
+    position: relative;
+
 
 }
+
+  
 .s-header__logo img:first-child {
     margin-right: 1.5rem;
+    z-index    : 11;
+
+    position: relative;
+
 }
 
 .s-header__logo a {
@@ -3148,11 +3158,19 @@ td:last-child {
     padding: 0;
     outline: 0;
     border : none;
+    z-index    : 11;
+
+    position: relative;
+
 }
 
 .s-header__logo img {
     width: 2rem;
     margin        : 0;
+    z-index    : 11;
+
+    position: relative;
+
     vertical-align: bottom;
 
 }
@@ -3170,10 +3188,14 @@ td:last-child {
     flex-flow : row nowrap;
     margin    : 0;
     padding   : 0;
+    z-index: 11;
+
 }
 
 .s-header__menu-links li {
     padding-left: 0;
+    z-index: 11;
+
 }
 
 .s-header__menu-links a {
