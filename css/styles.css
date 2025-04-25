@@ -3230,7 +3230,7 @@ td:last-child {
 
 .s-header__menu-toggle span {
     display         : block;
-    background-color: white;
+    background-color: #808080;
     width           : var(--toggle-line-width);
     height          : var(--toggle-line-height);
     margin-top      : -1px;
@@ -3472,7 +3472,7 @@ td:last-child {
 .tag-row.top {
     margin-top:calc(-8vw); 
     transform: translateX(-4%); /* shift left */
-
+    
 
 }
 
@@ -3485,20 +3485,44 @@ td:last-child {
 
   
   .tag-line {
-    width: 20%;
+    width: 25%;
     height: 0.0625rem;
-    min-width: 6rem;
+    min-width: 1rem;
     max-width: 15rem;
     background-color: #bbb;
     margin: 0 1rem;
     flex-shrink: 0;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 888px) {
     .tag-line {
       width: 18%;
+      min-width: 1px;
       max-width: 8rem;
     }
   }
+  @media screen and (max-width: 700px) {
+    .tag-row {
+      display: none;
+    }
+  }
+    @media screen and (max-width: 600px) {
+        .headline .line,
+        .headline .line3 {
+          font-size: calc(2.4rem + 1vw); /* shrink the whole container */
+        }
+      
+        .headline .line > span,
+        .headline .line3 > span {
+          font-size: calc(1.2rem + 1vw); /* shrink the inner span */
+        }
+      
+        .headline .line:not(span),
+        .headline .line3:not(span) {
+          font-size: calc(2.4rem + 1vw);
+        }
+      }
+    
+        
     
   /* Greeting Row */
   .greeting-row {
